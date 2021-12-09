@@ -5,10 +5,10 @@
   "description": "A dead simple JavaScript event bus.",
   "source": "src/index.js",
   "exports": {
-    "require": "./dist/beam.cjs",
+    "require": "./dist/beam.js",
     "default": "./dist/beam.modern.js"
   },
-  "main": "./dist/beam.cjs",
+  "main": "./dist/beam.js",
   "module": "./dist/beam.module.js",
   "unpkg": "./dist/beam.umd.js",
   "files": [
