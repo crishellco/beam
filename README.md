@@ -104,7 +104,7 @@ Subscribes to an event.
 bus.on(type: string, listener: function)
 ```
 
-Also subscribes to all events
+Subscribes to all events.
 
 ```javascript
 bus.on('*', listener: function)

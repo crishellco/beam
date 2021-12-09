@@ -1,3 +1,4 @@
+import { WILDCARD } from './constants';
 import factory from './factory';
 
 jest.useFakeTimers();
@@ -109,7 +110,7 @@ describe('bus', () => {
     init();
     const listener = jest.fn();
 
-    bus.on('*', listener);
+    bus.on(WILDCARD, listener);
     bus.emit('another', payload);
     expect(listener).toBeCalledTimes(1);
   });
