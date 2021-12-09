@@ -11,13 +11,14 @@ A simple event bus.
 *   [Usage](#usage)
 *   [API](#api)
     *   [Methods](#methods)
-        *   [beam.emit](#beamemit)
-        *   [beam.debouncedEmit](#beamdebouncedemit)
-        *   [beam.on](#beamon)
-        *   [beam.once](#beamonce)
-        *   [beam.off](#beamoff)
-        *   [beam.removeAllListeners](#beamremovealllisteners)
-        *   [beam.listeners](#beamlisteners)
+        *   [beam](#factory)
+        *   [bus.emit](#busemit)
+        *   [bus.debouncedEmit](#busdebouncedemit)
+        *   [bus.on](#buson)
+        *   [bus.once](#busonce)
+        *   [bus.off](#busoff)
+        *   [bus.removeAllListeners](#busremovealllisteners)
+        *   [bus.listeners](#buslisteners)
 *   [Development](#development)
     *   [Build Dist](#build-dist)
     *   [Test](#test)
@@ -37,6 +38,8 @@ npm i @crishellco/beam
 
 ## Usage
 
+Default instance.
+
 ```javascript
 import beam from '@crishellco/beam';
 
@@ -45,55 +48,81 @@ const bus = beam();
 bus.emit('submitted');
 ```
 
+Named instance.
+
+```javascript
+import beam from '@crishellco/beam';
+
+const usersBus = beam('users');
+
+usersBus.emit('submitted');
+```
+
+Create an instance by directly using the `Beam` class.
+
+```javascript
+import { Beam } from '@crishellco/beam';
+
+const bus = new Beam();
+
+bus.emit('submitted');
+```
+
 ## API
 
 ### Methods
 
-#### beam.emit
+#### beam <a id="factory"></a>
+
+Returns a new bus instance.
+
+`beam(instanceId?: string)`
+
+#### bus.emit
 
 Emits an event.
 
-`beam.emit(type: string, payload?: {})`
+`bus.emit(type: string, payload?: {})`
 
-#### beam.debouncedEmit
+#### bus.debouncedEmit
 
 Returns a debounced emit function. Useful when it is undesirable to emit the same event many times in a short period of time.
 
-`beam.debouncedEmit(delay: number, type: string): (payload) => {}`
+`bus.debouncedEmit(delay: number, type: string): (payload) => {}`
 
-#### beam.on
+#### bus.on
 
 Subscribes to an event.
 
-`beam.on(type: string, listener: function)`
+`bus.on(type: string, listener: function)`
 
 Also subscribes to all events
 
-`beam.on('*', listener: function)`
+`bus.on('*', listener: function)`
 
-#### beam.once
+#### bus.once
 
 Subscribes to an event once.
 
-`beam.once(type: string, listener: function)`
+`bus.once(type: string, listener: function)`
 
-#### beam.off
+#### bus.off
 
 Unsubscribes to an event.
 
-`beam.off(type: string, listener: function)`
+`bus.off(type: string, listener: function)`
 
-#### beam.removeAllListeners
+#### bus.removeAllListeners
 
 Removes all listeners on a given bus.
 
-`beam.removeAllListeners()`
+`bus.removeAllListeners()`
 
-#### beam.listeners
+#### bus.listeners
 
 Returns all registered listeners, grouped by event type.
 
-`beam.listeners()`
+`bus.listeners()`
 
 ## Development
 

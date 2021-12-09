@@ -15,7 +15,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle -f cjs,umd src/index.cjs.js && microbundle -f es,modern src/index.js",
     "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "test:unit": "jest src",
     "lint:js": "eslint src",
