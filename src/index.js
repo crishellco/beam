@@ -1,1 +1,1 @@
-export { default } from './bus-factory';
+export { default } from './factory';

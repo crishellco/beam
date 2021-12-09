@@ -1,5 +1,5 @@
 import { DEFAULT_INSTANCE_ID } from './constants';
-import bus from './bus';
+import Beam from './Beam';
 
 const instances = new Map();
 
@@ -8,7 +8,7 @@ export default function(instanceId = DEFAULT_INSTANCE_ID) {
 
   if (instance) return instance;
 
-  instance = bus();
+  instance = new Beam();
 
   instances.set(instanceId, instance);
 

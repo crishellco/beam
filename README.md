@@ -1,29 +1,29 @@
 ![Build](https://github.com/crishellco/beam/workflows/Build/badge.svg)
 [![codecov](https://codecov.io/gh/crishellco/beam/branch/master/graph/badge.svg?token=M7N86U5GF7)](https://codecov.io/gh/crishellco/beam)
-[![Maintainability](https://api.codeclimate.com/v1/badges/b3806bbadbec2ed40c08/maintainability)](https://codeclimate.com/github/crishellco/beam/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/10d5790796ad8b2f166c/maintainability)](https://codeclimate.com/github/crishellco/beam/maintainability)
 
 # Beam
 
 A simple event bus.
 
-- [Getting Started](#getting-started)
-  - [Install Package](#install-package)
-- [Usage](#usage)
-- [API](#api)
-  - [Methods](#methods)
-    - [beam.emit](#beamemit)
-    - [beam.debouncedEmit](#beamdebouncedemit)
-    - [beam.on](#beamon)
-    - [beam.once](#beamonce)
-    - [beam.off](#beamoff)
-    - [beam.removeAllListeners](#beamremovealllisteners)
-    - [beam.listeners](#beamlisteners)
-- [Development](#development)
-  - [Build Dist](#build-dist)
-  - [Test](#test)
-- [How to Contribute](#how-to-contribute)
-  - [Pull Requests](#pull-requests)
-- [License](#license)
+*   [Getting Started](#getting-started)
+    *   [Install Package](#install-package)
+*   [Usage](#usage)
+*   [API](#api)
+    *   [Methods](#methods)
+        *   [beam.emit](#beamemit)
+        *   [beam.debouncedEmit](#beamdebouncedemit)
+        *   [beam.on](#beamon)
+        *   [beam.once](#beamonce)
+        *   [beam.off](#beamoff)
+        *   [beam.removeAllListeners](#beamremovealllisteners)
+        *   [beam.listeners](#beamlisteners)
+*   [Development](#development)
+    *   [Build Dist](#build-dist)
+    *   [Test](#test)
+*   [How to Contribute](#how-to-contribute)
+    *   [Pull Requests](#pull-requests)
+*   [License](#license)
 
 ## Getting Started
 
@@ -113,11 +113,10 @@ yarn test
 
 ### Pull Requests
 
-1. Fork the repository
-2. Create a new branch for each feature or improvement
-3. Send a pull request from each feature branch to the **develop** branch
+1.  Fork the repository
+2.  Create a new branch for each feature or improvement
+3.  Send a pull request from each feature branch to the **develop** branch
 
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-  

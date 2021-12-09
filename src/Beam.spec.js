@@ -1,4 +1,4 @@
-import busFactory from './bus-factory';
+import factory from './factory';
 
 jest.useFakeTimers();
 
@@ -8,7 +8,7 @@ const payload = { foo: 'bar' };
 let bus;
 
 function init() {
-  bus = busFactory();
+  bus = factory();
 
   bus.removeAllListeners();
 }
@@ -89,7 +89,7 @@ describe('bus', () => {
 
   it('should make two instances', () => {
     init();
-    const secondBus = busFactory('internal');
+    const secondBus = factory('internal');
     const listener1 = jest.fn();
     const listener2 = jest.fn();
     const listener3 = jest.fn();

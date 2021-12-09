@@ -20,6 +20,8 @@
     "test:unit": "jest src",
     "lint:js": "eslint src",
     "lint:js:fix": "yarn lint:js --fix",
+    "lint:md": "remark . --frail",
+    "generate:md": "remark . --output",
     "release": "semantic-release"
   },
   "repository": {
@@ -36,13 +38,15 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@commitlint/cli": "^12.1.4",
     "@form8ion/commitlint-config": "^1.0.19",
+    "@form8ion/remark-lint-preset": "^2.1.7",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.4.2",
     "core-js": "^3.6.5",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^6.7.2",
+    "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^24.3.2",
     "eslint-plugin-jest-formatting": "^2.0.1",
@@ -54,6 +58,8 @@
     "microbundle": "^0.14.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
+    "remark-cli": "^10.0.1",
+    "remark-toc": "^8.0.1",
     "semantic-release": "^17.4.4"
   },
   "gitHooks": {
