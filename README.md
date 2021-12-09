@@ -85,7 +85,8 @@ beam(instanceId?: string)
 Emits an event.
 
 ```javascript
-bus.emit(type: string, payload?: {})`
+bus.emit(type: string, payload?: {})
+```
 
 #### bus.debouncedEmit
 
