@@ -4,7 +4,7 @@
 
 # Beam
 
-A simple event bus.
+A dead simple JavaScript event bus.
 
 *   [Getting Started](#getting-started)
     *   [Install Package](#install-package)
