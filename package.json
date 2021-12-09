@@ -1,0 +1,69 @@
+{
+  "name": "@crishellco/beam",
+  "version": "0.0.0-semantically-released",
+  "author": "Chris Mitchell (@crishellco)",
+  "description": "A simple event bus.",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/beam.cjs",
+    "default": "./dist/beam.modern.js"
+  },
+  "main": "./dist/beam.cjs",
+  "module": "./dist/beam.module.js",
+  "unpkg": "./dist/beam.umd.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
+    "test:unit": "jest src",
+    "lint:js": "eslint src",
+    "lint:js:fix": "yarn lint:js --fix",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crishellco/beam.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crishellco/beam/issues"
+  },
+  "homepage": "https://crishellco.github.io/beam/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@form8ion/commitlint-config": "^1.0.19",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.2",
+    "core-js": "^3.6.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-jest-formatting": "^2.0.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^7.0.0",
+    "jest": "^27.4.3",
+    "js-beautify": "^1.13.5",
+    "lint-staged": "^9.5.0",
+    "microbundle": "^0.14.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "semantic-release": "^17.4.4"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "pre-push": "yarn test:unit --coverage=false"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint src",
+      "git add"
+    ]
+  }
+}
