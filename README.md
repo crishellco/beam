@@ -76,53 +76,70 @@ bus.emit('submitted');
 
 Returns a new bus instance.
 
-`beam(instanceId?: string)`
+```javascript
+beam(instanceId?: string)
+```
 
 #### bus.emit
 
 Emits an event.
 
-`bus.emit(type: string, payload?: {})`
+```javascript
+bus.emit(type: string, payload?: {})`
 
 #### bus.debouncedEmit
 
 Returns a debounced emit function. Useful when it is undesirable to emit the same event many times in a short period of time.
 
-`bus.debouncedEmit(delay: number, type: string): (payload) => {}`
+```javascript
+bus.debouncedEmit(delay: number, type: string): (payload) => {}
+```
 
 #### bus.on
 
 Subscribes to an event.
 
-`bus.on(type: string, listener: function)`
+```javascript
+bus.on(type: string, listener: function)
+```
 
 Also subscribes to all events
 
-`bus.on('*', listener: function)`
+```javascript
+bus.on('*', listener: function)
+```
 
 #### bus.once
 
 Subscribes to an event once.
 
-`bus.once(type: string, listener: function)`
+```javascript
+bus.once(type: string, listener: function)
+```
 
 #### bus.off
 
 Unsubscribes to an event.
 
-`bus.off(type: string, listener: function)`
+```javascript
+bus.off(type: string, listener: function)
+```
 
 #### bus.removeAllListeners
 
 Removes all listeners on a given bus.
 
-`bus.removeAllListeners()`
+```javascript
+bus.removeAllListeners()
+```
 
 #### bus.listeners
 
 Returns all registered listeners, grouped by event type.
 
-`bus.listeners()`
+```javascript
+bus.listeners()
+```
 
 ## Development
 
