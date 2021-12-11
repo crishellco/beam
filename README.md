@@ -7,7 +7,7 @@
 
 # Beam
 
-A dead simple JavaScript event bus.
+A tiny, dead simple JavaScript event bus.
 
 ## Table of Contents
 

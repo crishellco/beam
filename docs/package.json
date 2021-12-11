@@ -1,7 +1,7 @@
 {
   "name": "beam-docs",
   "version": "0.0.1",
-  "description": "A dead simple JavaScript event bus.",
+  "description": "A tiny, dead simple JavaScript event bus.",
   "main": "index.js",
   "author": "Chris Mitchell (@crishellco)",
   "repository": {

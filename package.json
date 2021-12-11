@@ -2,7 +2,7 @@
   "name": "@crishellco/beam",
   "version": "0.0.0-semantically-released",
   "author": "Chris Mitchell (@crishellco)",
-  "description": "A dead simple JavaScript event bus.",
+  "description": "A tiny, dead simple JavaScript event bus.",
   "source": "src/index.js",
   "exports": {
     "require": "./dist/beam.js",
