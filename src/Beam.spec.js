@@ -130,6 +130,6 @@ describe('bus', () => {
     const listener = jest.fn();
 
     bus.on(event, listener);
-    expect(Object.keys(bus.listeners())).toEqual([event]);
+    expect(Object.keys(bus.listeners)).toEqual([event]);
   });
 });

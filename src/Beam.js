@@ -55,7 +55,7 @@ export default class Beam {
     this._listeners.clear();
   }
 
-  listeners() {
+  get listeners() {
     return Object.fromEntries(this._listeners);
   }
 }
