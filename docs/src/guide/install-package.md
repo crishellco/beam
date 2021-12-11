@@ -1,5 +1,5 @@
 # Install Package
 
 ```bash
-yarn add -D @crishellco/beam
+yarn add @crishellco/beam
 ```
