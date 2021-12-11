@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         text: 'Guide',
-        link: '/guide/install-package.md',
+        link: '/guide/install.md',
       },
       {
         text: 'API',
@@ -53,7 +53,7 @@ module.exports = {
         {
           title: 'Guide',
           collapsable: false,
-          children: ['install-package', 'usage'],
+          children: ['install', 'usage'],
         },
       ],
       '/api/': [

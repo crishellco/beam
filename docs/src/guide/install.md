@@ -1,4 +1,4 @@
-# Install Package
+# Install
 
 ```bash
 yarn add @crishellco/beam

@@ -2,7 +2,7 @@
 home: true
 # heroImage: /assets/img/logo.png
 actionText: Get Started →
-actionLink: /guide/install-package.md
+actionLink: /guide/install.md
 footer: MIT Licensed | Copyright © 2020-present Chris Mitchell
 ---
 
