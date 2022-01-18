@@ -60,7 +60,7 @@
     "prettier": "1.19.1",
     "remark-cli": "10.0.1",
     "remark-toc": "8.0.1",
-    "semantic-release": "18.0.1"
+    "semantic-release": "19.0.2"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
