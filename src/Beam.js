@@ -41,14 +41,14 @@ export default class Beam {
     const listeners = (this._listeners.get(type) || []).concat(this._listeners.get(WILDCARD) || []);
 
     if (listeners.length) {
-      listeners.slice().map(listener => {
+      listeners.slice().map((listener) => {
         listener(payload, type);
       });
     }
   }
 
   debouncedEmit(delay, type) {
-    return debounce(payload => this.emit(type, payload), delay);
+    return debounce((payload) => this.emit(type, payload), delay);
   }
 
   removeAllListeners() {
