@@ -47,7 +47,7 @@
     "babel-jest": "28.1.0",
     "core-js": "3.22.5",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.15.0",
+    "eslint": "8.16.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jest": "26.2.2",
     "eslint-plugin-jest-formatting": "3.1.0",
