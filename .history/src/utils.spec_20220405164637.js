@@ -29,7 +29,7 @@ describe('utils', () => {
 
       jest.runAllTimers();
 
-      expect(cb).toHaveBeenCalledTimes(1);
+      expect(cb).toBeCalledTimes(1);
     });
   });
 });

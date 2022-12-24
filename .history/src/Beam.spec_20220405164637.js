@@ -22,7 +22,7 @@ describe('bus', () => {
     bus.on(event, listener);
     bus.emit(event);
     bus.emit(event, payload);
-    expect(listener).toHaveBeenCalledTimes(2);
+    expect(listener).toBeCalledTimes(2);
   });
 
   it('should handle on many times', () => {
@@ -32,7 +32,7 @@ describe('bus', () => {
     bus.on(event, listener);
     bus.emit(event, payload);
     bus.emit(event, payload);
-    expect(listener).toHaveBeenCalledTimes(2);
+    expect(listener).toBeCalledTimes(2);
   });
 
   it('should handle off', () => {
@@ -69,7 +69,7 @@ describe('bus', () => {
     bus.emit(event, payload);
     bus.emit(event, payload);
     expect(listener1).toHaveBeenNthCalledWith(1, payload, event);
-    expect(listener2).toHaveBeenCalledTimes(3);
+    expect(listener2).toBeCalledTimes(3);
   });
 
   it('should debounce emit', () => {
@@ -85,7 +85,7 @@ describe('bus', () => {
 
     jest.runAllTimers();
 
-    expect(listener1).toHaveBeenCalledTimes(1);
+    expect(listener1).toBeCalledTimes(1);
   });
 
   it('should make two instances', () => {
@@ -101,9 +101,9 @@ describe('bus', () => {
     secondBus.on(event, listener3);
     bus.emit(event, payload);
     secondBus.emit(event, payload);
-    expect(listener1).toHaveBeenCalledTimes(1);
-    expect(listener2).toHaveBeenCalledTimes(2);
-    expect(listener3).toHaveBeenCalledTimes(1);
+    expect(listener1).toBeCalledTimes(1);
+    expect(listener2).toBeCalledTimes(2);
+    expect(listener3).toBeCalledTimes(1);
   });
 
   it('should handle wildcard event types', () => {
@@ -112,7 +112,7 @@ describe('bus', () => {
 
     bus.on(WILDCARD, listener);
     bus.emit('another', payload);
-    expect(listener).toHaveBeenCalledTimes(1);
+    expect(listener).toBeCalledTimes(1);
   });
 
   it('should remove all listeners', () => {
@@ -122,7 +122,7 @@ describe('bus', () => {
     bus.on(event, listener);
     bus.removeAllListeners();
     bus.emit(event, payload);
-    expect(listener).toHaveBeenCalledTimes(0);
+    expect(listener).toBeCalledTimes(0);
   });
 
   it('should return all listeners', () => {
