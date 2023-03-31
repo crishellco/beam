@@ -6,7 +6,7 @@
   "source": "src/index.js",
   "exports": {
     "require": "./dist/beam.js",
-    "default": "./dist/beam.modern.js"
+    "default": "./dist/beam.modern.mjs"
   },
   "main": "./dist/beam.js",
   "module": "./dist/beam.module.js",
