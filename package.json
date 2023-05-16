@@ -42,7 +42,7 @@
     "@babel/preset-env": "7.21.5",
     "@commitlint/cli": "17.6.3",
     "@form8ion/commitlint-config": "1.0.50",
-    "@form8ion/remark-lint-preset": "5.0.1",
+    "@form8ion/remark-lint-preset": "5.0.2",
     "@babel/eslint-parser": "7.21.8",
     "babel-jest": "29.5.0",
     "core-js": "3.30.2",
