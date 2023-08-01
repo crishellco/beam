@@ -2480,10 +2480,10 @@
     "@commitlint/cli" "17.6.7"
     "@commitlint/config-conventional" "17.6.7"
 
-"@form8ion/remark-lint-preset@5.0.9":
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-5.0.9.tgz#8f29cfac1464de58cc0490bd59c8b7d792eaa89d"
-  integrity sha512-5jFCF1TdYuxcVw7GsJjKuWPPv4lf2RrdAewwKwveLwfm8xO38uwmAz87B5XNhBzCJC9P+378QQPBSQjvM7dK9g==
+"@form8ion/remark-lint-preset@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-6.0.0.tgz#2d3a8e9d02ccbeedf01b6fd37eed4d2e4357f598"
+  integrity sha512-s6BgNKFPh2MDu/b4jleu0m8n78fL2wFJdEBVhaCgDb0I2RHTEBS1IkHqeWAjnm9PoG792+QvG/3jb+43xHqHHA==
   dependencies:
     remark-gfm "^3.0.0"
     remark-lint-final-definition "3.1.2"
