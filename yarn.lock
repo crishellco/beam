@@ -2364,6 +2364,22 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
+"@commitlint/cli@18.2.0":
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-18.2.0.tgz#c2dc8f0a834b5c4befa48cad6396f694f28d2b5f"
+  integrity sha512-F/DCG791kMFmWg5eIdogakuGeg4OiI2kD430ed1a1Hh3epvrJdeIAgcGADAMIOmF+m0S1+VlIYUKG2dvQQ1Izw==
+  dependencies:
+    "@commitlint/format" "^18.1.0"
+    "@commitlint/lint" "^18.1.0"
+    "@commitlint/load" "^18.2.0"
+    "@commitlint/read" "^18.1.0"
+    "@commitlint/types" "^18.1.0"
+    execa "^5.0.0"
+    lodash.isfunction "^3.0.9"
+    resolve-from "5.0.0"
+    resolve-global "1.0.0"
+    yargs "^17.0.0"
+
 "@commitlint/config-conventional@18.1.0":
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-18.1.0.tgz#f8f37b0de4090ebd3f9418672184814fab520205"
@@ -2461,6 +2477,24 @@
     resolve-from "^5.0.0"
     ts-node "^10.8.1"
     typescript "^5.2.2"
+
+"@commitlint/load@^18.2.0":
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-18.2.0.tgz#ca2428c306d0b7f5ae9bac91991efaa359ba0ad6"
+  integrity sha512-xjX3d3CRlOALwImhOsmLYZh14/+gW/KxsY7+bPKrzmGuFailf9K7ckhB071oYZVJdACnpY4hDYiosFyOC+MpAA==
+  dependencies:
+    "@commitlint/config-validator" "^18.1.0"
+    "@commitlint/execute-rule" "^18.1.0"
+    "@commitlint/resolve-extends" "^18.1.0"
+    "@commitlint/types" "^18.1.0"
+    "@types/node" "^18.11.9"
+    chalk "^4.1.0"
+    cosmiconfig "^8.0.0"
+    cosmiconfig-typescript-loader "^5.0.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
+    resolve-from "^5.0.0"
 
 "@commitlint/message@^18.1.0":
   version "18.1.0"
@@ -5047,6 +5081,13 @@ cosmiconfig-typescript-loader@^4.0.0:
   resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.4.0.tgz#f3feae459ea090f131df5474ce4b1222912319f9"
   integrity sha512-BabizFdC3wBHhbI4kJh0VkQP9GkBfoHPydD0COMce1nJ1kJAB3F2TmJ/I7diULBKtmEWSwEbuN/KDtgnmUUVmw==
 
+cosmiconfig-typescript-loader@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-5.0.0.tgz#0d3becfe022a871f7275ceb2397d692e06045dc8"
+  integrity sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==
+  dependencies:
+    jiti "^1.19.1"
+
 cosmiconfig@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.0.1.tgz#714d756522cace867867ccb4474c5d01bbae5d6d"
@@ -7575,6 +7616,11 @@ jest@29.7.0:
     "@jest/types" "^29.6.3"
     import-local "^3.0.2"
     jest-cli "^29.7.0"
+
+jiti@^1.19.1:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.20.0.tgz#2d823b5852ee8963585c8dd8b7992ffc1ae83b42"
+  integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
 
 js-beautify@1.14.9:
   version "1.14.9"
