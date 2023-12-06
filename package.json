@@ -61,7 +61,7 @@
     "prettier": "2.8.8",
     "remark-cli": "12.0.0",
     "remark-toc": "9.0.0",
-    "semantic-release": "22.0.9"
+    "semantic-release": "22.0.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
