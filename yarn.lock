@@ -2765,10 +2765,10 @@
     "@commitlint/cli" "18.6.1"
     "@commitlint/config-conventional" "18.6.3"
 
-"@form8ion/remark-lint-preset@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-6.0.2.tgz#0158b49b362ea0758aab4e28bff23fd31c6e01b2"
-  integrity sha512-HcwZ4GF73bUiyn1Vuc8cK+/sPbifOO+xzBpZYGIXdzrEtBPjrIcVl74zLhQrEstrYXub6hUKtxD44fpZL0fF4A==
+"@form8ion/remark-lint-preset@6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-6.0.3.tgz#a562c628de8328ddb54052d03a85ee8dc0250931"
+  integrity sha512-KE7BM66KQEI87COvdUru/Q+69S+iVbDZjSuvl40W90Ba7JN5ZqFLhkEE64rmSJWAmWacVJFHwEq/Zr6Q3NvoNQ==
   dependencies:
     remark-gfm "^4.0.0"
     remark-lint-final-definition "3.1.2"
@@ -2779,7 +2779,7 @@
     remark-lint-ordered-list-marker-value "3.1.2"
     remark-lint-unordered-list-marker-style "3.1.2"
     remark-preset-lint-recommended "6.1.3"
-    remark-validate-links "13.0.0"
+    remark-validate-links "13.0.1"
 
 "@gar/promisify@^1.1.3":
   version "1.1.3"
@@ -3827,6 +3827,11 @@
   integrity sha512-hs/iBJx2aydugBQx5ETV3ZgeSS0oIreQrFJ4bjBl0XvM4wAmDjFEALY7p0rTSLt2eL+ibjRAAs9dTPiCLtmbqQ==
   dependencies:
     "@types/unist" "*"
+
+"@types/hosted-git-info@^3.0.0":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@types/hosted-git-info/-/hosted-git-info-3.0.5.tgz#658e80083026a0574fbfd256abb5cbfb6ecd2218"
+  integrity sha512-Dmngh7U003cOHPhKGyA7LWqrnvcTyILNgNPmNCxlx7j8MIi54iBliiT8XqVLIQ3GchoOjVAyBzNJVyuaJjqokg==
 
 "@types/is-empty@^1.0.0":
   version "1.2.1"
@@ -11149,11 +11154,12 @@ remark-toc@9.0.0:
     "@types/mdast" "^4.0.0"
     mdast-util-toc "^7.0.0"
 
-remark-validate-links@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-13.0.0.tgz#25174801f67a11b8cb82263b90596d59c16c3f22"
-  integrity sha512-21/LrPvAhUxJnAXLbMvgBrjTvsKki4txEnwe58V/iKP5ptKLvYzWLnMueT7VZI7yVhsH8l8ZaoQ5WmKkm8ws/w==
+remark-validate-links@13.0.1:
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-13.0.1.tgz#13f09b26cec8491e4973479c9d8faa35f50b5cc7"
+  integrity sha512-GWDZWJAQU0+Fsm1GCLNeJoVcE9L3XTVrWCgQZOYREfXqRFIYaSoIBbARZizLm/vBESq+a3GwEBnIflSCNw26tw==
   dependencies:
+    "@types/hosted-git-info" "^3.0.0"
     "@types/mdast" "^4.0.0"
     github-slugger "^2.0.0"
     hosted-git-info "^7.0.0"
