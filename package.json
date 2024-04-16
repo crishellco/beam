@@ -45,7 +45,7 @@
     "@form8ion/remark-lint-preset": "6.0.3",
     "@babel/eslint-parser": "7.24.1",
     "babel-jest": "29.7.0",
-    "core-js": "3.36.1",
+    "core-js": "3.37.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
