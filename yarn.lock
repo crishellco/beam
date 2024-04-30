@@ -6985,11 +6985,6 @@ import-meta-resolve@^2.0.0:
   dependencies:
     builtins "^5.0.0"
 
-import-meta-resolve@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-3.0.0.tgz#94a6aabc623874fbc2f3525ec1300db71c6cbc11"
-  integrity sha512-4IwhLhNNA8yy445rPjD/lWh++7hMDOml2eHtd58eG7h+qK3EryMuuRbsHGPikCoAgIkkDnckKfWSk2iDla/ejg==
-
 import-meta-resolve@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-4.0.0.tgz#0b1195915689f60ab00f830af0f15cc841e8919e"
@@ -10865,12 +10860,12 @@ regjsparser@^0.9.1:
   dependencies:
     jsesc "~0.5.0"
 
-remark-cli@12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/remark-cli/-/remark-cli-12.0.0.tgz#13919d1acf18028c3776f01a2e7cc1eb95b8b93a"
-  integrity sha512-IGxCo2VsXC/GS2YdlF7+S8DsUiyULyiauik01NFoiMIrOlbDhXjrKLD8hYazwQdD67nw2k7cwOBIxcK/cbNd9Q==
+remark-cli@12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/remark-cli/-/remark-cli-12.0.1.tgz#991ede01adfdf0471177c381168105da4b93f99a"
+  integrity sha512-2NAEOACoTgo+e+YAaCTODqbrWyhMVmlUyjxNCkTrDRHHQvH6+NbrnqVvQaLH/Q8Ket3v90A43dgAJmXv8y5Tkw==
   dependencies:
-    import-meta-resolve "^3.0.0"
+    import-meta-resolve "^4.0.0"
     markdown-extensions "^2.0.0"
     remark "^15.0.0"
     unified-args "^11.0.0"
