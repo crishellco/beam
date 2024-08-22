@@ -39,7 +39,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.25.2",
-    "@babel/preset-env": "7.25.3",
+    "@babel/preset-env": "7.25.4",
     "@commitlint/cli": "19.4.0",
     "@form8ion/commitlint-config": "1.0.76",
     "@form8ion/remark-lint-preset": "6.0.4",
