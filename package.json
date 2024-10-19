@@ -41,7 +41,7 @@
     "@babel/core": "7.25.8",
     "@babel/preset-env": "7.25.8",
     "@commitlint/cli": "19.5.0",
-    "@form8ion/commitlint-config": "1.0.76",
+    "@form8ion/commitlint-config": "2.0.0",
     "@form8ion/remark-lint-preset": "6.0.4",
     "@babel/eslint-parser": "7.25.8",
     "babel-jest": "29.7.0",
