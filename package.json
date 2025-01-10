@@ -43,7 +43,7 @@
     "@commitlint/cli": "19.6.1",
     "@form8ion/commitlint-config": "2.0.3",
     "@form8ion/remark-lint-preset": "6.0.5",
-    "@babel/eslint-parser": "7.25.9",
+    "@babel/eslint-parser": "7.26.5",
     "babel-jest": "29.7.0",
     "core-js": "3.40.0",
     "cz-conventional-changelog": "3.3.0",
