@@ -2541,10 +2541,10 @@
     "@commitlint/cli" "19.7.1"
     "@commitlint/config-conventional" "19.7.1"
 
-"@form8ion/remark-lint-preset@6.0.6":
-  version "6.0.6"
-  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-6.0.6.tgz#8642c45820c2466309d70adf786d4ba6acadb229"
-  integrity sha512-rx2An3pMEWaUMzynaDDCUr588N6b5PTTCiiFABEHF6CM+C20jctf/KseNZoNjIw+HQyoDbLpt+856nmwhWzuRQ==
+"@form8ion/remark-lint-preset@6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@form8ion/remark-lint-preset/-/remark-lint-preset-6.0.7.tgz#f2940575365d7c616c7e83f8827a61c70fc54c6b"
+  integrity sha512-SART6hyYNoz4GFR9OtXy+XUaMp+S73bUjVAZal8+4KzXAmlF2z5UBfmeX94hzZtMJOMEsqIsYLshBoegAep1UA==
   dependencies:
     remark-gfm "^4.0.0"
     remark-lint-final-definition "4.0.2"
@@ -2555,7 +2555,7 @@
     remark-lint-ordered-list-marker-value "4.0.1"
     remark-lint-unordered-list-marker-style "4.0.1"
     remark-preset-lint-recommended "7.0.1"
-    remark-validate-links "13.0.2"
+    remark-validate-links "13.1.0"
 
 "@gar/promisify@^1.1.3":
   version "1.1.3"
@@ -10914,10 +10914,10 @@ remark-toc@9.0.0:
     "@types/mdast" "^4.0.0"
     mdast-util-toc "^7.0.0"
 
-remark-validate-links@13.0.2:
-  version "13.0.2"
-  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-13.0.2.tgz#78d49610093c4abaf21d73166836e27cd50d73a5"
-  integrity sha512-YZPiB6eWT6sjVYD+TXisCGzNZwbWmtnqeA6rr7zlYz7LrtKENaT+fPIRjG16tW4dv85su2VsWdw7e3cqS+2Tog==
+remark-validate-links@13.1.0:
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/remark-validate-links/-/remark-validate-links-13.1.0.tgz#855eefe553d6d38ac0ae1028522fd8c6585c5ba5"
+  integrity sha512-z+glZ4zoRyrWimQHtoqJEFJdPoIR1R1SDr/JoWjmS6EsYlyhxNuCHtIt165gmV7ltOSFJ+rGsipqRGfBPInd7A==
   dependencies:
     "@types/hosted-git-info" "^3.0.0"
     "@types/mdast" "^4.0.0"
